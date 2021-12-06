@@ -1,0 +1,26 @@
+class JavaMathEg
+{
+public static void main(String[] args)
+{
+double x=28, y=4;
+System.out.println("Maximum number of x and y is:"+Math.max(x,y));
+System.out.println("Minimum number of x and y is:"+Math.min(x,y));
+System.out.println("square root ofy is:"+Math.sqrt(y));
+System.out.println("power of x and y is:"+Math.pow(x,y));
+System.out.println("logarithm of y is:"+Math.log(y));
+System.out.println("logarithm of x is:"+Math.log(x));
+System.out.println("log 10 of y is:"+Math.log10(y));
+System.out.println("log 10 of x is:"+Math.log10(x));
+System.out.println("exp of x is:"+Math.exp(x));
+double a=30;
+System.out.println("sine value of a is:"+Math.sin(a));
+System.out.println("cosine value of a is:"+Math.cos(a));
+System.out.println("tangent value of a is:"+Math.tan(a));
+System.out.println(Math.floor(3.34));
+System.out.println(Math.ceil(3.34));
+System.out.println(Math.round(3.34));
+System.out.println(Math.round(3.54));
+System.out.println(Math.random());
+}
+}
+
