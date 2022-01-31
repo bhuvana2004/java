@@ -1,0 +1,21 @@
+package Learnjava.corejava;
+public class Simple
+{
+public static void show()
+{
+System.out.println("Hello from sub package");
+}
+}
+
+mport Learnjava.corejava.Simple;
+class Sample
+{
+public static void main(String args[])
+{
+Simple s=new Simple();
+s.show();
+}
+}
+
+output
+Hello from sub package
